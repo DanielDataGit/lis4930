@@ -23,13 +23,12 @@ quadraticroots(1, -5.86, 8.5408)
 quadraticroots(1, -4, 4)
 quadraticroots(1, 2, 5)
 
-def incDenominator(x):
+
+def incdenominator(x):
     if x > 0:
         y = range(1, 11)
         for n in y:
             print(x/n)
 
 
-z = incDenominator(1)
-print(z)
-
+incdenominator(1)
